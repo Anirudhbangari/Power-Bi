@@ -98,8 +98,6 @@ Following inferences can be drawn from the dashboard;
 
 ### [1] 
 
-4.1) 69.06 % customers have travel type 'Business'.
 
-4.2) 30.94 % customers have travel type 'Personal'.
-
-        thus, more customers have travel type 'Business'.
+.
+        For highlight the point
