@@ -88,6 +88,7 @@ Exchange rate and Export Merchandise DAX expression also same apart from column 
 ![page1](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/43c22c72-ea2b-4d7c-9945-31388030a084)
 
   Snap of dashboard of monthly
+  ![page2](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/f5485981-2dc5-4f1c-acd8-ef4595f4568c)
 
 
 
