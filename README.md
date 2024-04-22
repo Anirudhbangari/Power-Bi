@@ -30,17 +30,23 @@ Snap of new annual data ,
 ![annuAL](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/ae83814b-5427-4ada-bbfe-336a49ef7410)
 
 Snap of new monthly data,
+![Monthly](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/2c5f7e1a-b32b-4ff4-9bb9-b9e3ccbd9054)
 
-        
-- Step 15 : New measure was created to find total count of customers.
+- Step 5 : After applying Dax querry to get annualy and monthly growth rate of country according to Cpi,Exchange rate and Export Merchandise
+  
+Following DAX expression was written for the annualy growth of cpi
+Percentage Growth of CPI = 
+VAR PreviousYearCPI = CALCULATE(MAX('Merge all file annual'[CPI_value]), 
+                    FILTER('Merge all file annual', 
+                           'Merge all file annual'[Country] = EARLIER('Merge all file annual'[Country]) && 
+                           'Merge all file annual'[Year] = EARLIER('Merge all file annual'[Year]) - 1))
+RETURN
+IF(ISBLANK(PreviousYearCPI), BLANK(), ('Merge all file annual'[CPI_value] - PreviousYearCPI) / PreviousYearCPI * 100)
 
-Following DAX expression was written for the same,
-        
-        Count of Customers = COUNT(airline_passenger_satisfaction[ID])
-        
-A card visual was used to represent count of customers.
+Exchange rate and Export Merchandise DAX expression also same apart from column name 
 
-![Snap_Count](https://user-images.githubusercontent.com/102996550/174090154-424dc1a4-3ff7-41f8-9617-17a2fb205825.jpg)
+-snap after apply DAX expression
+
 
         
  - Step 16 : New measure was created to find  % of customers,
