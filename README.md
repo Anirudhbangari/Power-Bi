@@ -82,11 +82,14 @@ Exchange rate and Export Merchandise DAX expression also same apart from column 
 - Step 9 : Slicer used Yearly ,Country and Monthly in Monthly page
 - Step 10 : Use Line Chart to study how one variable impact other variable E.g How export merchandise impact the exchange rate
 - Step 11 : Use map to view location of country
-  Snap of dashboard of annualy
-  Snap of dashboard of monthly
+  
 # Snapshot of Dashboard (Power BI Service)
+    Snap of dashboard of annualy
+![page1](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/43c22c72-ea2b-4d7c-9945-31388030a084)
 
-![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
+  Snap of dashboard of monthly
+
+
 
  
  # Report Snapshot (Power BI DESKTOP)
