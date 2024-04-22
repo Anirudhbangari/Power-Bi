@@ -1,7 +1,6 @@
 # Deloitte Case Study
 
-### Dashboard Link : 
-
+### Dashboard Link : https://github.com/Anirudhbangari/Power-Bi/blob/main/int1l.pbix
 ## Problem Statement
 
 This dashboard helps  as a collective term to refer to a broad range of economic services provided
