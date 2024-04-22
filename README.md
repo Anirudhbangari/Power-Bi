@@ -1,14 +1,18 @@
 # Airlines-Dashboard
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+### Dashboard Link : c
 
 ## Problem Statement
 
-This dashboard helps the airlines understand their customers better. It helps the airlines know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
+This dashboard helps  as a collective term to refer to a broad range of economic services provided
+by the ﬁnance industry, which encompasses a broad range of organizations that
+manage money, including credit unions, banks, credit card companies, insurance
+companies, consumer ﬁnance companies, stock brokerages, investment funds A
+banking domain is comprised of all the components needed to run a ﬁnancial service
+end-to-end. It covers the transaction and distribution process; the ways in which
+customers interact with the system, products, and services the organization oﬀers; and
+the technology involved.
 
-Since, number of neutral/dissatisfied customers (almost 57 %) are more than satisfied customers (around 43 %), thus in all they must work on improving their services. 
-
-Also since average delay in arrival & departure both is 15 minutes, thus they must try to reduce it.
 
 
 ### Steps followed 
