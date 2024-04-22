@@ -24,7 +24,7 @@ First, for all three files—CPI, exchange rate, and merchandise exports—any m
 - Step 2 : Transform all data table unpivot other(other than period column) in transform option and name new column country
 - Step 3 : Than name period column in annual data of all file
 - Step 4 : Split period column in monthly data of all file year and month wise name respectively
-- Step 5 :
+- Step 5 : Merage all data annually and monthly wise
         
 Snap of new calculated column ,
 
