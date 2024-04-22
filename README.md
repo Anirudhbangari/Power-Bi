@@ -26,9 +26,10 @@ First, for all three files—CPI, exchange rate, and merchandise exports—any m
 - Step 4 : Split period column in monthly data of all file year and month wise name respectively
 - Step 5 : Merage all data annually and monthly wise
         
-Snap of new calculated column ,
+Snap of new annual data ,
+![annuAL](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/ae83814b-5427-4ada-bbfe-336a49ef7410)
 
-![Snap_1](https://user-images.githubusercontent.com/102996550/174089602-ab834a6b-62ce-4b62-8922-a1d241ec240e.jpg)
+Snap of new monthly data,
 
         
 - Step 15 : New measure was created to find total count of customers.
