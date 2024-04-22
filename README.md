@@ -32,7 +32,7 @@ Snap of new annual data ,
 Snap of new monthly data,
 ![Monthly](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/2c5f7e1a-b32b-4ff4-9bb9-b9e3ccbd9054)
 
-- Step 5 : After applying Dax querry to get annualy and monthly growth rate of country according to Cpi,Exchange rate and Export Merchandise
+- Step 6 : After applying Dax querry to get annualy and monthly growth rate of country according to Cpi,Exchange rate and Export Merchandise
   
 Following DAX expression was written for the annualy growth of cpi
 Percentage Growth of CPI = 
@@ -46,6 +46,7 @@ IF(ISBLANK(PreviousYearCPI), BLANK(), ('Merge all file annual'[CPI_value] - Prev
 Exchange rate and Export Merchandise DAX expression also same apart from column name 
 
 -snap after apply DAX expression
+
 ![Screenshot 2024-04-22 201224](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/1aa6e29f-42dd-4032-bdf2-ae4e71107782)
 
 Following DAX expression was written for the monthly  growth of cpi
@@ -72,37 +73,17 @@ IF(
 Exchange rate and Export Merchandise DAX expression also same apart from column name 
 -snap after apply DAX expression
 
+![Screenshot 2024-04-22 201504](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/b3b41e34-7d4b-495c-84d2-151a1c85a08d)
 
-        
- - Step 16 : New measure was created to find  % of customers,
- 
- Following DAX expression was written to find % of customers,
- 
-         % Customers = (DIVIDE(airline_passenger_satisfaction[Count of Customers], 129880)*100)
- 
- A card visual was used to represent this perecntage.
- 
- Snap of % of customers who preferred business class
- 
- ![Snap_Percentage](https://user-images.githubusercontent.com/102996550/174090653-da02feb4-4775-4a95-affb-a211ca985d07.jpg)
 
- 
- - Step 17 : New measure was created to calculate total distance travelled by flights & a card visual was used to represent total distance.
- 
- Following DAX expression was written to find total distance,
- 
-         Total Distance Travelled = SUM(airline_passenger_satisfaction[Flight Distance])
-    
- A card visual was used to represent this total distance.
- 
- 
- ![Snap_3](https://user-images.githubusercontent.com/102996550/174091618-bf770d6c-34c6-44d4-9f5e-49583a6d5f68.jpg)
- 
- - Step 18 : The report was then published to Power BI Service.
- 
- 
-![Publish_Message](https://user-images.githubusercontent.com/102996550/174094520-3a845196-97e6-4d44-8760-34a64abc3e77.jpg)
-
+- Step 7 : After that card are used for show growth percentage accordingly to monthly and annualy of cpi,Exchange rate and Export Merchandise of
+  of different country
+- Step 8 : Slicer used Yearly and Country in Annualy page
+- Step 9 : Slicer used Yearly ,Country and Monthly in Monthly page
+- Step 10 : Use Line Chart to study how one variable impact other variable E.g How export merchandise impact the exchange rate
+- Step 11 : Use map to view location of country
+  Snap of dashboard of annualy
+  Snap of dashboard of monthly
 # Snapshot of Dashboard (Power BI Service)
 
 ![dashboard_snapo](https://user-images.githubusercontent.com/102996550/174096257-11f1aae5-203d-44fc-bfca-25d37faf3237.jpg)
