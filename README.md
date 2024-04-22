@@ -46,6 +46,31 @@ IF(ISBLANK(PreviousYearCPI), BLANK(), ('Merge all file annual'[CPI_value] - Prev
 Exchange rate and Export Merchandise DAX expression also same apart from column name 
 
 -snap after apply DAX expression
+![Screenshot 2024-04-22 201224](https://github.com/Anirudhbangari/Power-Bi/assets/35010033/1aa6e29f-42dd-4032-bdf2-ae4e71107782)
+
+Following DAX expression was written for the monthly  growth of cpi
+CPI_Growth(%) = 
+VAR CurrentCPI = [Cpi_value]  // Replace 'YourCPIColumnName' with the actual name of your CPI column
+VAR PreviousCPI = 
+CALCULATE(
+    MAX([Cpi_value]), 
+    FILTER(
+        ALL('Merge all file monthly'), 
+        'Merge all file monthly'[Country] = EARLIER('Merge all file monthly'[Country]) &&
+        'Merge all file monthly'[Month] = EARLIER('Merge all file monthly'[Month]) - 1 &&
+        'Merge all file monthly'[Year] = EARLIER('Merge all file monthly'[Year])
+    )
+)
+RETURN
+IF(
+    ISBLANK(PreviousCPI) || PreviousCPI = 0, 
+    BLANK(),
+    ((CurrentCPI - PreviousCPI) / PreviousCPI) * 100
+)
+
+
+Exchange rate and Export Merchandise DAX expression also same apart from column name 
+-snap after apply DAX expression
 
 
         
