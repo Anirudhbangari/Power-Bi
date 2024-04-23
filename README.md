@@ -97,7 +97,4 @@ Two pages report was created on Power BI Desktop .
 Following inferences can be drawn from the dashboard;
 
 ### [1] 
-
-
-.
-        For highlight the point
+    For highlight the point
