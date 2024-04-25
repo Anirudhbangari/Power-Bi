@@ -96,5 +96,15 @@ Two pages report was created on Power BI Desktop .
 
 Following inferences can be drawn from the dashboard;
 
-### [1] 
-    For highlight the point
+### [1] Economic Stability Post-2000:
+The stabilization of exchange rates post-2000 suggests that the global economy or the economies of the countries in your dataset became more stable or were influenced by factors that reduced volatility in exchange rates.
+
+### [2] Inflationary Pressure: 
+The CPI growth rate of 10.87% indicates significant inflationary pressure across the countries in your dataset. High inflation can impact purchasing power, investment decisions, and overall economic stability.
+### [3] Export-Led Growth: 
+The steady growth in export merchandise indicates that the export sectors of these countries have been strong contributors to economic growth. This suggests that these countries have been successful in exporting goods and services to foreign markets, potentially boosting their economies and creating jobs.
+### [4] Exchange Rate as a Reflection of Economic Health: 
+The fluctuating exchange rates before 2000 followed by a more uniform growth pattern suggests that exchange rates can be a reflection of the overall economic health and stability of a country or group of countries.
+
+    In conclusion, your dashboard provides valuable insights into the economic performance of various countries over time. Understanding these trends can help         policymakers, investors, and analysts make informed decisions about economic strategies, investments, and risk management.
+   
