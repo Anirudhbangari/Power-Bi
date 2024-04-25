@@ -106,5 +106,5 @@ The steady growth in export merchandise indicates that the export sectors of the
 ### [4] Exchange Rate as a Reflection of Economic Health: 
 The fluctuating exchange rates before 2000 followed by a more uniform growth pattern suggests that exchange rates can be a reflection of the overall economic health and stability of a country or group of countries.
 
-    In conclusion, your dashboard provides valuable insights into the economic performance of various countries over time. Understanding these trends can help         policymakers, investors, and analysts make informed decisions about economic strategies, investments, and risk management.
+    In conclusion, dashboard provides valuable insights into the economic performance of various countries over time. Understanding these trends can help         policymakers, investors, and analysts make informed decisions about economic strategies, investments, and risk management.
    
