@@ -94,7 +94,7 @@ Exchange rate and Export Merchandise DAX expression also same apart from column 
 
 Two pages report was created on Power BI Desktop .
 
-Following inferences can be drawn from the dashboard;
+Following inferences can be drawn from the dashboard overall for all country and all year;
 
 ### [1] Economic Stability Post-2000:
 The stabilization of exchange rates post-2000 suggests that the global economy or the economies of the countries in your dataset became more stable or were influenced by factors that reduced volatility in exchange rates.
